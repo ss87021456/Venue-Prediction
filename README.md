@@ -16,7 +16,7 @@ python3
 mkdir input # Create input directory
 <br> <Download training, validation dataset on the link above and move into input directory>
 <br>python3 ./src/clean_data.py --input ./input/training.txt --output ./input/cleaned_training.txt
-<br>python3 ./src/clean_data.py --input ./input/validation.txt --output ./input/cleaned_training.txt
+<br>python3 ./src/clean_data.py --input ./input/validation.txt --output ./input/cleaned_validation.txt
 <br>python3 ./src/create_data_example.py --train ./input/cleaned_training.txt --validation ./input/cleaned_validation.txt
 <br>python3 ./src/train_classifier.py --train ./input/cleaned_training.txt --validation ./input/cleaned_validation.txt
 
