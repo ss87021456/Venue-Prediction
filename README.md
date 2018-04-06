@@ -4,7 +4,8 @@
 ## Dataset DBLP:
 training: https://www.dropbox.com/s/rrbksqvvoefrr4p/training.txt?dl=0
 <br>validation: https://www.dropbox.com/s/tw094y2xfcoosv3/validation.txt?dl=0
-
+<br> Dataset describe:
+<br> Paper_Id \tab Paper_title \tab Publication_venue \tab Cited_Papers \tab Cited_Papers_Venues
 ## Dependency:
 python3
 <br> sklearn
