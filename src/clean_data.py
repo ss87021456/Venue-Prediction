@@ -5,7 +5,7 @@ import numpy as np
 import pickle as pkl
 from util import pre_clean, cleaned
 
-# python clean_data.py --input ../input/training.txt --output ../input/cleaned_training.txt
+# python ./src/clean_data.py --input ./input/training.txt --output ./input/cleaned_training.txt
 
 def run(input, output, f):
     dataset = pd.read_csv(input, sep='\t', names=['Paper_Id','Paper_title','Publication_venue', \

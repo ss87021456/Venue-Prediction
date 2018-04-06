@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import csv, argparse
 
-# python train_classifier.py --train ../input/cleaned_training.txt --validation ../input/cleaned_validation.txt
+# python ./src/train_classifier.py --train ./input/cleaned_training.txt --validation ./input/cleaned_validation.txt
 
 def warn(*args, **kwargs):
     pass

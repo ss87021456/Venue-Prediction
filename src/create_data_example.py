@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import csv, argparse
 
-# python create_data_example.py --train ../input/cleaned_training.txt --validation ../input/cleaned_validation.txt
+# python ./src/create_data_example.py --train ./input/cleaned_training.txt --validation ./input/cleaned_validation.txt
 
 def run(train, validation, dim=50, num=20):
     print("Creating example dataformat bag-of-word dim: {0}, number of lines: {1} \n".format(dim, num))
@@ -58,11 +58,11 @@ def run(train, validation, dim=50, num=20):
     v_output = v_output[col]
     print(t_output.head())
 
-    print("Saving ../input/text_train_features.txt ...")
-    t_output.to_csv("../input/text_train_features.txt", sep='\t', index=False, header=False)
+    print("Saving ./input/text_train_features.txt ...")
+    t_output.to_csv("./input/text_train_features.txt", sep='\t', index=False, header=False)
     
-    print("Saving ../input/text_vali_features.txt ...")
-    v_output.to_csv("../input/text_vali_features.txt", sep='\t', index=False, header=False)
+    print("Saving ./input/text_vali_features.txt ...")
+    v_output.to_csv("./input/text_vali_features.txt", sep='\t', index=False, header=False)
 
 
 if __name__ == '__main__':
