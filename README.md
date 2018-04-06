@@ -2,7 +2,7 @@
 #### Venue Prediction with bag-of-words + heterogenous information as features using sklearn SGDClassifier
 
 ## Dependency:
-<br> python3
+python3
 <br> sklearn
 <br> pandas
 <br> numpy
